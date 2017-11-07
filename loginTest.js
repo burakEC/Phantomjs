@@ -17,7 +17,7 @@ phantom.javascriptEnabled = true;
 console.log("All settings loaded, start with execution");
 
 if (1 === system.args.length) {
-    console.log("Usage: login.js <some URL> <username> <password>");
+    console.log("Usage: loginTest.js <some URL> <username> <password>");
     phantom.exit();
 }
 
